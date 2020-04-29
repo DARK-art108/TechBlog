@@ -1,23 +1,23 @@
 module.exports = {
-  siteTitle: "HeroBlog - a GatsbyJS starter", // <title>
-  shortSiteTitle: "HeroBlog - GatsbyJS starter", // <title> ending for posts and pages
-  siteDescription: "HeroBlog is a GatsbyJS starter.",
-  siteUrl: "https://gatsby-starter-hero-blog.greglobinski.com",
+  siteTitle: "Lets Cook Android with Me", // <title>
+  shortSiteTitle: "Lets Cook Android with Me", // <title> ending for posts and pages
+  siteDescription: "Android Development and Designing Blog",
+  siteUrl: "https://letscookandroid.netlify.com",
   // pathPrefix: "",
   siteImage: "preview.jpg",
   siteLanguage: "en",
 
   /* author */
-  authorName: "greg lobinski",
-  authorTwitterAccount: "greglobinski",
+  authorName: "Ritesh Yadav",
+  authorTwitterAccount: "Ritesh Yadav",
 
   /* info */
-  headerTitle: "greg lobinski",
-  headerSubTitle: "presents another one GatsbyJS starter",
+  headerTitle: "Hi I'm Ritesh",
+  headerSubTitle: "I'm a Android Developer and Ui/Ux Designer",
 
   /* manifest.json */
-  manifestName: "HeroBlog - a GatsbyJS starter",
-  manifestShortName: "HeroBlog", // max 12 characters
+  manifestName: "Lets Cook Android with Me",
+  manifestShortName: "AndroidBlog", // max 12 characters
   manifestStartUrl: "/index.html",
   manifestBackgroundColor: "white",
   manifestThemeColor: "#666",
@@ -32,8 +32,9 @@ module.exports = {
 
   // social
   authorSocialLinks: [
-    { name: "github", url: "https://github.com/greglobinski" },
-    { name: "twitter", url: "https://twitter.com/greglobinski" },
-    { name: "facebook", url: "http://facebook.com/greglobinski" }
+    { name: "github", url: "https://github.com/DARK-art108" },
+    { name: "twitter", url: "https://twitter.com/RiteshYadav" },
+    { name: "facebook", url: "http://facebook.com/darkart.raj" },
+    {name: "LinkedIn", url: "https://www.linkedin.com/in/ritesh-yadav-a2a6a818b/"}
   ]
 };
