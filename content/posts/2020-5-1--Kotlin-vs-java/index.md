@@ -23,7 +23,7 @@ Kotlin has gained its popularity after being announced as an official launguage 
 
 As Kotlin is a open source launguage,which is based on jvm(java virtual machine),due to its open source environment the codebase of kotlin is improving rapidly,as new features are adding day by day.
 
-So ,meanwhile if someone wants to know what are Open Source Projects or How to contribute to Open Source repos? Then Checkout this awesome 👉 [How to get started with Open Source?](https://www.hackerearth.com/getstarted-opensource/).
+> So ,meanwhile if someone wants to know what are Open Source Projects or How to contribute to Open Source repos? Then Checkout this awesome 👉 [How to get started with Open Source?](https://www.hackerearth.com/getstarted-opensource/).
 
 ### Pros of Kotlin
 
@@ -35,7 +35,7 @@ So ,meanwhile if someone wants to know what are Open Source Projects or How to c
 
 - Kotlin support's **mordern programing concepts** like extension function,Higher order fuction like lambdas.
 
-- **Retrofit2** has a grat support for kotlin which can be used to make a clean Api's call and making Http request.
+- **Retrofit2** has a great support for kotlin which can be used to make a clean Api's call and making Http request.
 
 - Kotlin provides a **built-in null safety** support like you will get rid of null pointer exception.
 
