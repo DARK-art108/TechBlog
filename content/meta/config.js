@@ -2,7 +2,7 @@ module.exports = {
   siteTitle: "Lets Cook Android with Me", // <title>
   shortSiteTitle: "Lets Cook Android with Me", // <title> ending for posts and pages
   siteDescription: "Android Development and Designing Blog",
-  siteUrl: "https://letscookandroid.netlify.com",
+  siteUrl: "https://letscookandroid.netlify.app",
   // pathPrefix: "",
   siteImage: "preview.jpg",
   siteLanguage: "en",

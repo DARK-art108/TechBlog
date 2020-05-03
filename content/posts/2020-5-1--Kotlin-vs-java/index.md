@@ -23,7 +23,7 @@ Kotlin has gained its popularity after being announced as an official launguage 
 
 As Kotlin is a open source launguage,which is based on jvm(java virtual machine),due to its open source environment the codebase of kotlin is improving rapidly,as new features are adding day by day.
 
-> So ,meanwhile if someone wants to know what are Open Source Projects or How to contribute to Open Source repos? Then Checkout this awesome 👉 [How to get started with Open Source?](https://www.hackerearth.com/getstarted-opensource/).
+> So ,meanwhile if someone wants to know what are Open Source Projects or How to contribute to Open Source repos? Then Checkout this awesome article 👉 [How to get started with Open Source?](https://www.hackerearth.com/getstarted-opensource/).
 
 ### Pros of Kotlin
 
