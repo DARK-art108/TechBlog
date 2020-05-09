@@ -29,7 +29,7 @@ In this situation, Param is the Observer and Ankita is the data. Param was told 
 
 ### How to make Api's Reactive using RxKotlin?
 
-Frist of all let's add some dependencies in build.gradle in your project 👇 and if you're not familiar with retrofit2/okhttp and how to make http request?.Then you can go through this article 👉 [Understand How does Retrofit work?](https://medium.com/mindorks/understand-how-does-retrofit-work-c9e264131f4a).
+Frist of all let's add some dependencies in build.gradle in your project 👇 and if you're not familiar with retrofit2/okhttp and how to make an http request?.Then you can go through this article 👉 [Understand How does Retrofit work?](https://medium.com/mindorks/understand-how-does-retrofit-work-c9e264131f4a).
 **NOTE**: MainActivity.xml only contain's two component's Textview and Circular Progress View,As we will only about the functionality of Retrofit2,Api's and Rxjava/Rxkotlin majorly in this blog.
 
 #### Dependencies
@@ -44,7 +44,7 @@ Frist of all let's add some dependencies in build.gradle in your project 👇 an
 ```
 To get a well understanding of RxKotlin/RxAndroid,We are going to build a Sample Project using Retrofit2 and RxKotlin.The Retrofit2 is used to call a **TimeApi** in this project which will show the unix time in the textview,So till now we have added dependencies,And now let's get understand the project structure.
 
-I usually follow MVVM pattern you are free to use any pattern😁,So we will first create a **Network Package** into it we will create two files one is interface and the other is a singleton object or class in kotlin.
+I usually follow MVVM pattern or architecture you are free to use any pattern/architecture😁,So we will first create a **Network Package** into it we will create two files one is interface and the other one is a singleton object or class in kotlin.
 
 #### Interface  👉 TimeApi.kt
 
@@ -58,8 +58,7 @@ interface TimeApi {
 }
 
 ```
-So, we have done with creating interface for making a **Get Request**(@GET) for the Api so that we can fetch the **Json** data.Now we will create a Client.kt Singleton object or class which will create
-Retrofit builder and parse the data from **Json --> Java Object**.As kotlin has one great feature which is object class by declaring object as a keyword you can create class and instance of it at the same time of it declaration.
+So, we have done with creating interface for making a **Get Request**(@GET) for the Api so that we can fetch the **Json** data.Now we will create a Client.kt (Singleton object or class)which will create Retrofit builder and parse the data from **Json --> Java Object**.As kotlin has one great feature which is object class by declaring object as a keyword you can create class and instance of it at the same time of it declaration.
 
  Then we will create Rxjava2calladapterfactory, which will create and setup Rxjava/RxKotlin env.
 
@@ -162,7 +161,7 @@ So,now our project is ready to run and build.But before running don't forget to 
 
 ```
 
-**The above code can be generalized and can be used for 80% of network's call and request.As in this project you can also use Kotlin Coroutines in the place of Rxjava which is also a best alternative for AsyncTask's.I hope you will get most out of this project,as it is one of the most easier way use Rxjava/Rxkotlin in android.**😁 
+**The above code can be generalized and can be used for 80% of network's call and request.As in this project you can also use Kotlin Coroutines in the place of Rxjava which is also a best alternative for AsyncTask's.I hope you will get most out of this project,as it is one of the most easier way to use Rxjava/Rxkotlin in android.**😁 
 
 
 
