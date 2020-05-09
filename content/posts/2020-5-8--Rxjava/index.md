@@ -30,7 +30,7 @@ In this situation, Param is the Observer and Ankita is the data. Param was told 
 ### How to make Api's Reactive using RxKotlin?
 
 Frist of all let's add some dependencies in build.gradle in your project 👇 and if you're not familiar with retrofit2/okhttp and how to make an http request?.Then you can go through this article 👉 [Understand How does Retrofit work?](https://medium.com/mindorks/understand-how-does-retrofit-work-c9e264131f4a).
-**NOTE**: MainActivity.xml only contain's two component's Textview and Circular Progress View,As we will only about the functionality of Retrofit2,Api's and Rxjava/Rxkotlin majorly in this blog.
+**NOTE**: MainActivity.xml only contain's two component's Textview and Circular Progress View,As we will be only discussing about the functionality of Retrofit2,Api's and Rxjava/Rxkotlin majorly in this blog post.
 
 #### Dependencies
 
@@ -114,7 +114,7 @@ class MainActivity : AppCompatActivity() {
 
         time.subscribeOn(Schedulers.io())//Frist the person should subscribe the thread.
 
-            .observeOn(AndroidSchedulers.mainThread())//As soon as the thread is subscribed the the observer will observe the information and get the notification as the data changes, similar to Youtube
+            .observeOn(AndroidSchedulers.mainThread())//As soon as the thread is subscribed the observer will observe the information and get the notification as the data changes, similar to Youtube
 
             .repeatWhen { complete->complete.delay(2,TimeUnit.SECONDS) }//This is simply a time delay sys which will repeat the whole process once the user subscribe to main thread.
 
@@ -125,7 +125,7 @@ class MainActivity : AppCompatActivity() {
                 }
 
                 override fun onSubscribe(d: Disposable) { 
-                //Once the user subscribed the mainthread he will start getting the info which is the unixtime.
+                //Once the user subscribed the mainthread he/she will start getting the info which is the unixtime.
 
                     Log.e("MainActivity","Subscribed")
 
